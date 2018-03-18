@@ -16,7 +16,8 @@ Parameters to be tweaked in the code :
 >>> Value lies in range (0-1) , and determines ,how big the clusters are to be formed.Larger the threshold, larger the individual clusters and vice versa.
 
 3) linkage         # line 17
->>> Type of linkage to be used in the hierarchial clustering: 'single' , 'complete' , 'average'
+>>> Type of linkage to be used in the hierarchial clustering: 'single' , 'complete' , 'average'.Put the value in rage (0-2) , where each 
+value represents a method.
 
 ...............................................................................................................
 
