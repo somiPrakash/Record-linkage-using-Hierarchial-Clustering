@@ -21,6 +21,7 @@ Parameters to be tweaked in the code :
 
 How to run : 
 > Run the file 'dedup.py' . make sure the input file 'dataset.csv' is in the same folder as the python script.
+> Change the path of 'dataset.csv in the python script' at line 141 , after downloading.
 ...............................................................................................................
 
 Approach used : 
