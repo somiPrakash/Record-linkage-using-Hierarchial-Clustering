@@ -1,0 +1,187 @@
+Output with following parameters :
+weights = [1,1,2,2]
+net_threshold  = 0.7
+linkage = 'complete'
+
+
+
+OUTPUT :
+runfile('E:/summer internship 2018/Innovaccer challenge/dedup.py', wdir='E:/summer internship 2018/Innovaccer challenge')
+{'cluster': [7, 6, 102]}
+{'cluster': [17, 16, 5, 4]}
+{'cluster': [29, 28, 11, 10]}
+{'cluster': [37, 36, 13, 12]}
+{'cluster': [39, 38, 19, 18]}
+{'cluster': [41, 40, 21, 20]}
+{'cluster': [49, 48, 23, 22]}
+{'cluster': [51, 50, 25, 24]}
+{'cluster': [57, 56, 27, 26]}
+{'cluster': [59, 58, 31, 30]}
+{'cluster': [63, 62, 33, 32]}
+{'cluster': [67, 66, 35, 34]}
+{'cluster': [69, 68, 43, 42]}
+{'cluster': [71, 70, 45, 44]}
+{'cluster': [73, 72, 47, 46]}
+{'cluster': [77, 76, 53, 52]}
+{'cluster': [83, 82, 55, 54]}
+{'cluster': [85, 84, 61, 60]}
+{'cluster': [91, 90, 65, 64]}
+{'cluster': [97, 96, 75, 74]}
+{'cluster': [95, 94, 79, 78]}
+{'cluster': [101, 100, 81, 80]}
+{'cluster': [93, 92, 87, 86]}
+{'cluster': [9, 8, 1, 0, 89, 88]}
+{'cluster': [15, 14, 3, 2, 99, 98]}
+
+ Cluster : 0 members : 
+{'rec_no': 7, 'first_name': 'WILLIAM', 'last_name': 'BLAND JR', 'dob': '21/02/62', 'gender': 'F'}
+{'rec_no': 6, 'first_name': 'WILLIAM', 'last_name': 'BLAND JR', 'dob': '21/02/62', 'gender': 'F'}
+{'rec_no': 102, 'first_name': 'HARRIET', 'last_name': 'FUNARO', 'dob': '06/12/37', 'gender': 'F'}
+
+ Cluster : 1 members : 
+{'rec_no': 17, 'first_name': 'WILLIAM', 'last_name': 'BLAND JR', 'dob': '25/10/53', 'gender': 'F'}
+{'rec_no': 16, 'first_name': 'WILLIAM', 'last_name': 'BLAND JR', 'dob': '25/10/53', 'gender': 'F'}
+{'rec_no': 5, 'first_name': 'WILLIAM', 'last_name': 'BLAND JR', 'dob': '21/02/62', 'gender': 'F'}
+{'rec_no': 4, 'first_name': 'WILLIAM', 'last_name': 'SALTER JR', 'dob': '01/03/68', 'gender': 'F'}
+
+ Cluster : 2 members : 
+{'rec_no': 29, 'first_name': 'ROY', 'last_name': 'MICHAELSON JR', 'dob': '17/06/48', 'gender': 'M'}
+{'rec_no': 28, 'first_name': 'ROY', 'last_name': 'MICHAELSON JR', 'dob': '17/06/48', 'gender': 'M'}
+{'rec_no': 11, 'first_name': 'BILL', 'last_name': 'BLAND JR', 'dob': '21/02/62', 'gender': 'F'}
+{'rec_no': 10, 'first_name': 'WILLIAM', 'last_name': 'BLAND III', 'dob': '21/02/62', 'gender': 'F'}
+
+ Cluster : 3 members : 
+{'rec_no': 37, 'first_name': 'LAWRENCE', 'last_name': 'HOUGHTON JR', 'dob': '31/01/46', 'gender': 'M'}
+{'rec_no': 36, 'first_name': 'LAWRENCE', 'last_name': 'HOUGHTON JR', 'dob': '31/01/46', 'gender': 'M'}
+{'rec_no': 13, 'first_name': 'WILLIAM', 'last_name': 'BLAND JR', 'dob': '21/02/62', 'gender': 'F'}
+{'rec_no': 12, 'first_name': 'WILLIAM', 'last_name': 'BLAND', 'dob': '21/02/62', 'gender': 'F'}
+
+ Cluster : 4 members : 
+{'rec_no': 39, 'first_name': 'LAWRENCE', 'last_name': 'LIND JR', 'dob': '31/01/46', 'gender': 'M'}
+{'rec_no': 38, 'first_name': 'LAWRENCE', 'last_name': 'LIND JR', 'dob': '31/01/46', 'gender': 'M'}
+{'rec_no': 19, 'first_name': 'THOMAS', 'last_name': 'DUNCAN JR', 'dob': '25/10/53', 'gender': 'F'}
+{'rec_no': 18, 'first_name': 'WILLIAM', 'last_name': 'SHAFFER JR', 'dob': '25/10/53', 'gender': 'F'}
+
+ Cluster : 5 members : 
+{'rec_no': 41, 'first_name': 'KENNETH', 'last_name': 'LIND JR', 'dob': '31/01/46', 'gender': 'M'}
+{'rec_no': 40, 'first_name': 'KENNETH', 'last_name': 'LIND JR', 'dob': '31/01/46', 'gender': 'M'}
+{'rec_no': 21, 'first_name': 'RON', 'last_name': 'CARLSON JR', 'dob': '25/10/53', 'gender': 'F'}
+{'rec_no': 20, 'first_name': 'ROY', 'last_name': 'CARLSON JR', 'dob': '25/10/53', 'gender': 'F'}
+
+ Cluster : 6 members : 
+{'rec_no': 49, 'first_name': 'JOHN', 'last_name': 'CLARK JR', 'dob': '16/12/44', 'gender': 'M'}
+{'rec_no': 48, 'first_name': 'JOHN', 'last_name': 'CLARK JR', 'dob': '16/12/44', 'gender': 'M'}
+{'rec_no': 23, 'first_name': 'ROY', 'last_name': 'MICHAELSON', 'dob': '25/10/53', 'gender': 'M'}
+{'rec_no': 22, 'first_name': 'ROY', 'last_name': 'DUNCAN JR', 'dob': '25/10/53', 'gender': 'F'}
+
+ Cluster : 7 members : 
+{'rec_no': 51, 'first_name': 'JOHN', 'last_name': 'MICHAELSON JR', 'dob': '16/12/44', 'gender': 'M'}
+{'rec_no': 50, 'first_name': 'JOHN', 'last_name': 'MICHAELSON JR', 'dob': '16/12/44', 'gender': 'M'}
+{'rec_no': 25, 'first_name': 'ROY', 'last_name': 'MICHAELSON', 'dob': '25/10/53', 'gender': 'M'}
+{'rec_no': 24, 'first_name': 'ROY', 'last_name': 'MICHAELSON JR', 'dob': '25/10/53', 'gender': 'M'}
+
+ Cluster : 8 members : 
+{'rec_no': 57, 'first_name': 'JOHN', 'last_name': 'MICHAELSON JR', 'dob': '24/06/39', 'gender': 'M'}
+{'rec_no': 56, 'first_name': 'JOHN', 'last_name': 'MICHAELSON JR', 'dob': '24/06/39', 'gender': 'M'}
+{'rec_no': 27, 'first_name': 'ROY', 'last_name': 'MICHAELSON JR', 'dob': '01/05/51', 'gender': 'M'}
+{'rec_no': 26, 'first_name': 'ROY', 'last_name': 'MICHAELSON JR', 'dob': '25/10/53', 'gender': 'M'}
+
+ Cluster : 9 members : 
+{'rec_no': 59, 'first_name': 'JAMES', 'last_name': 'MICHAELSON JR', 'dob': '24/06/39', 'gender': 'M'}
+{'rec_no': 58, 'first_name': 'JAMES', 'last_name': 'MICHAELSON JR', 'dob': '24/06/39', 'gender': 'M'}
+{'rec_no': 31, 'first_name': 'ROBERT', 'last_name': 'MICHAELSON JR', 'dob': '09/04/47', 'gender': 'M'}
+{'rec_no': 30, 'first_name': 'ROY', 'last_name': 'MICHAELSON JR', 'dob': '09/04/47', 'gender': 'M'}
+
+ Cluster : 10 members : 
+{'rec_no': 63, 'first_name': 'HAROLD', 'last_name': 'LARSON JR', 'dob': '09/06/39', 'gender': 'M'}
+{'rec_no': 62, 'first_name': 'HAROLD', 'last_name': 'LARSON JR', 'dob': '09/06/39', 'gender': 'M'}
+{'rec_no': 33, 'first_name': 'OWEN', 'last_name': 'MUSTAPHA JR', 'dob': '11/03/47', 'gender': 'M'}
+{'rec_no': 32, 'first_name': 'BOB', 'last_name': 'MICHAELSON JR', 'dob': '09/04/47', 'gender': 'M'}
+
+ Cluster : 11 members : 
+{'rec_no': 67, 'first_name': 'HAROLD', 'last_name': 'MELVIN JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 66, 'first_name': 'HAROLD', 'last_name': 'MELVIN JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 35, 'first_name': 'LAWRENCE', 'last_name': 'HOUGHTON JR', 'dob': '31/01/46', 'gender': 'M'}
+{'rec_no': 34, 'first_name': 'OWAN', 'last_name': 'MUSTAPHA JR', 'dob': '11/03/47', 'gender': 'M'}
+
+ Cluster : 12 members : 
+{'rec_no': 69, 'first_name': 'HAROLD', 'last_name': 'MELVIN JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 68, 'first_name': 'HAROLD', 'last_name': 'MELVIN JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 43, 'first_name': 'JOHN', 'last_name': 'CAIN JR', 'dob': '20/01/46', 'gender': 'M'}
+{'rec_no': 42, 'first_name': 'JOHN', 'last_name': 'LIND JR', 'dob': '20/01/46', 'gender': 'M'}
+
+ Cluster : 13 members : 
+{'rec_no': 71, 'first_name': 'HAROLD', 'last_name': 'MELVIN JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 70, 'first_name': 'HAROLD', 'last_name': 'MELVIN JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 45, 'first_name': 'RONALD', 'last_name': 'CLARK', 'dob': '09/02/45', 'gender': 'M'}
+{'rec_no': 44, 'first_name': 'JOHN', 'last_name': 'CLARK', 'dob': '09/06/45', 'gender': 'M'}
+
+ Cluster : 14 members : 
+{'rec_no': 73, 'first_name': 'HAROLD', 'last_name': 'MELVIN JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 72, 'first_name': 'HAROLD', 'last_name': 'MELVIN JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 47, 'first_name': 'JOHN', 'last_name': 'CLARK', 'dob': '16/12/44', 'gender': 'M'}
+{'rec_no': 46, 'first_name': 'DONALD', 'last_name': 'CLARK', 'dob': '09/02/45', 'gender': 'M'}
+
+ Cluster : 15 members : 
+{'rec_no': 77, 'first_name': 'HAROLD', 'last_name': 'CHAVAS JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 76, 'first_name': 'HAROLD', 'last_name': 'CHAVAS JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 53, 'first_name': 'JOHN', 'last_name': 'MICHAELSON JR', 'dob': '24/04/40', 'gender': 'M'}
+{'rec_no': 52, 'first_name': 'JOHN', 'last_name': 'MICHAELSON JR', 'dob': '16/12/44', 'gender': 'M'}
+
+ Cluster : 16 members : 
+{'rec_no': 83, 'first_name': 'HAROLD', 'last_name': 'CHAVAS JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 82, 'first_name': 'HAROLD', 'last_name': 'CHAVAS JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 55, 'first_name': 'JOHN', 'last_name': 'MICHAELSON JR', 'dob': '24/06/39', 'gender': 'M'}
+{'rec_no': 54, 'first_name': 'JOHN', 'last_name': 'MICHAELSON JR', 'dob': '24/04/40', 'gender': 'M'}
+
+ Cluster : 17 members : 
+{'rec_no': 85, 'first_name': 'HAROLD', 'last_name': 'FAGEN JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 84, 'first_name': 'HAROLD', 'last_name': 'FAGEN JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 61, 'first_name': 'JACK', 'last_name': 'MICHAELSON JR', 'dob': '09/06/39', 'gender': 'M'}
+{'rec_no': 60, 'first_name': 'JACK', 'last_name': 'MICHAELSON JR', 'dob': '24/06/39', 'gender': 'M'}
+
+ Cluster : 18 members : 
+{'rec_no': 91, 'first_name': 'CLIFFORD', 'last_name': 'GRIFFIN JR', 'dob': '07/05/37', 'gender': 'M'}
+{'rec_no': 90, 'first_name': 'CLIFFORD', 'last_name': 'GRIFFIN JR', 'dob': '07/05/37', 'gender': 'M'}
+{'rec_no': 65, 'first_name': 'HAROLD', 'last_name': 'HOUGHTON JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 64, 'first_name': 'HAROLD', 'last_name': 'MUSTAPHA JR', 'dob': '07/10/37', 'gender': 'M'}
+
+ Cluster : 19 members : 
+{'rec_no': 97, 'first_name': 'ADDISON', 'last_name': 'HANNA', 'dob': '24/11/34', 'gender': 'M'}
+{'rec_no': 96, 'first_name': 'ADDISON', 'last_name': 'HANNA', 'dob': '24/11/34', 'gender': 'M'}
+{'rec_no': 75, 'first_name': 'HAROLD', 'last_name': 'CHAVAS JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 74, 'first_name': 'HAROLD', 'last_name': 'MELVIN JR', 'dob': '07/10/37', 'gender': 'M'}
+
+ Cluster : 20 members : 
+{'rec_no': 95, 'first_name': 'ADDISON JOHN', 'last_name': 'HANNA', 'dob': '24/11/34', 'gender': 'M'}
+{'rec_no': 94, 'first_name': 'ADDISON J', 'last_name': 'HANNA', 'dob': '24/11/34', 'gender': 'M'}
+{'rec_no': 79, 'first_name': 'HAROLD', 'last_name': 'MICHAELSON JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 78, 'first_name': 'HAROLD', 'last_name': 'CHAVAS JR', 'dob': '07/10/37', 'gender': 'M'}
+
+ Cluster : 21 members : 
+{'rec_no': 101, 'first_name': 'HARRIET', 'last_name': 'FUNARO J', 'dob': '06/12/37', 'gender': 'F'}
+{'rec_no': 100, 'first_name': 'HARRIET', 'last_name': 'FUNARO JONES', 'dob': '06/12/37', 'gender': 'F'}
+{'rec_no': 81, 'first_name': 'HAROLD', 'last_name': 'SMITH JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 80, 'first_name': 'HAROLD', 'last_name': 'MICHAELSON JR', 'dob': '07/10/37', 'gender': 'M'}
+
+ Cluster : 22 members : 
+{'rec_no': 93, 'first_name': 'CLARENCE', 'last_name': 'GRIFFIN JR', 'dob': '07/05/37', 'gender': 'M'}
+{'rec_no': 92, 'first_name': 'CLIFFORD', 'last_name': 'GRIFFIN JR', 'dob': '07/05/37', 'gender': 'M'}
+{'rec_no': 87, 'first_name': 'DARH', 'last_name': 'GRIFFIN JR', 'dob': '07/10/37', 'gender': 'M'}
+{'rec_no': 86, 'first_name': 'GEORGE', 'last_name': 'FAGEN JR', 'dob': '07/10/37', 'gender': 'M'}
+
+ Cluster : 23 members : 
+{'rec_no': 9, 'first_name': 'WILLIAM', 'last_name': 'SHAFFER JR', 'dob': '21/02/62', 'gender': 'F'}
+{'rec_no': 8, 'first_name': 'WILLIAM', 'last_name': 'SHAFFER JR', 'dob': '21/02/62', 'gender': 'F'}
+{'rec_no': 1, 'first_name': 'WILLIAM', 'last_name': 'ROTHMEYER JR', 'dob': '01/03/68', 'gender': 'F'}
+{'rec_no': 0, 'first_name': 'WILLIAM', 'last_name': 'SMITH JR', 'dob': '01/03/68', 'gender': 'F'}
+{'rec_no': 89, 'first_name': 'DARL', 'last_name': 'GRIFFIN JR', 'dob': '07/05/37', 'gender': 'M'}
+{'rec_no': 88, 'first_name': 'DARL', 'last_name': 'GRIFFIN JR', 'dob': '10/07/37', 'gender': 'M'}
+
+ Cluster : 24 members : 
+{'rec_no': 15, 'first_name': 'WILLIAM', 'last_name': 'BLAND JR', 'dob': '08/06/54', 'gender': 'F'}
+{'rec_no': 14, 'first_name': 'WILLIAM', 'last_name': 'BLAND JR', 'dob': '08/06/54', 'gender': 'F'}
+{'rec_no': 3, 'first_name': 'WILLIAM', 'last_name': 'SALTER JR', 'dob': '01/03/68', 'gender': 'F'}
+{'rec_no': 2, 'first_name': 'WILLIAM', 'last_name': 'ASBY JR', 'dob': '01/03/68', 'gender': 'F'}
+{'rec_no': 99, 'first_name': 'ADDISON', 'last_name': 'GALETICH JR', 'dob': '15/10/32', 'gender': 'M'}
+{'rec_no': 98, 'first_name': 'ADDISON', 'last_name': 'HANNA', 'dob': '24/11/34', 'gender': 'M'}
