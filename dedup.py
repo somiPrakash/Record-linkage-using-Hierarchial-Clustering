@@ -138,7 +138,7 @@ def clustered_dataset(dataset,clusters):
 
 
 if __name__ == "__main__":   
-    df = pd.read_csv('E:\summer internship 2018\Innovaccer challenge\dataset.csv')            
+    df = pd.read_csv('dataset.csv')               # Enter he path of the dataset csv file
     dset_a = []
     record_data = {'rec_no' : '','first_name' : '','last_name' : '','dob' : '','gender' : '' }
     for count in range(0,len(df['ln'])):
