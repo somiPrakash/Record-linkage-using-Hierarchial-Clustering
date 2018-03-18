@@ -27,10 +27,14 @@ How to run :
 
 Approach used : 
 >  Since it is unsupervised data, clustering seemed the viable solution so the script here implements hierarchial clustering .
-> Hierarchial clustering makes use of a similarity/distance matrix calculated for all the 'N' entries of a  dataset,each treated as an individual cluster.
-> Distance measure of the strings here used is 'Levenshtein Distance'.The distance is converted into similarity value in range (0-1)
-> The matrix formed is N x N  , and from there, we take either the upper or the lower traingular part of the matrix in consideration, checking of the maximum similarity string enries.The one with max similarity are clustered together leaving us  with N-1 clusters.
-> The similarity matrix is calculated again for N-1 points , and the process is repeated, and with each iteration, clusters become larger , and similarity value between clusters becomes smaller.Util the maximum value of similarity is above our defined threshold, the iteration continues.
 
-> Distance between two clusters ,any one having more than one element, is where we introduce the 'linkage' terminology.
-It was seen that 'complete linkage' formed good clusters than 'average' or 'single'.
+> Hierarchial clustering makes use of a similarity/distance matrix calculated for all the 'N' entries of a  dataset,each treated as an individual cluster.The approach can be seen as bottom to top approach , where we start with N individual clusters and end up making clusters of larger size ,and lower number of clusters, as we perform further iterations.
+
+> The distance measure of the strings here used is 'Levenshtein Distance'.The distance is converted into similarity value in range (0-1)
+
+> The matrix formed is N x N  , and from there, we take either the upper or the lower traingular part of the matrix in consideration, checking of the maximum similarity string enries.The one with max similarity are clustered together leaving us  with N-1 clusters.
+
+> The similarity matrix is calculated again for N-1 points , and the process is repeated, and with each iteration, clusters become larger , and similarity value between clusters becomes smaller. Until the maximum value of similarity goes below our defined threshold, the iteration continues.
+
+> Distance between two clusters ,when cluster has more than one element , is where we introduce the 'linkage' terminology.
+It was seen that 'complete linkage' formed better clusters than 'average' or 'single'.
